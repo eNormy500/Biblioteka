@@ -1,0 +1,7 @@
+<div *ngIf="ksiazkaSzczegoly">
+<h3>Tytuł: {{ksiazkaSzczegoly.tytul}}</h3>
+<h3>Autor: {{ksiazkaSzczegoly.autor}}</h3>
+<h3>Liczba Stron: {{ksiazkaSzczegoly.liczba_str}}</h3>
+<h3 (click)="wyporzycz()">Wyporzyczenia: {{ksiazkaSzczegoly.wypozyczen}}</h3>
+<img src="{{ksiazkaSzczegoly.zdj}}" alt="">
+</div>

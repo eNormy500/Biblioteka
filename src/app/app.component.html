@@ -1,0 +1,6 @@
+<h1>Biblioteka</h1>
+<ol>
+  <li *ngFor="let ksiazka of ksiazeczki"><button type="button" (click)="wyswietl(ksiazka)">{{ksiazka.tytul}}</button></li>
+</ol>
+
+<app-szczegoly [ksiazkaSzczegoly]="wybranaKsiazka"></app-szczegoly>
